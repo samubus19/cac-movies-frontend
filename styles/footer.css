@@ -1,0 +1,27 @@
+.footer_container {
+    min-height: fit-content;
+    width: 100%;
+    background-color: #9F3647;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer_link {
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 700px) {
+    .footer_container {
+        flex-direction: column;
+    }
+    .footer_link {
+        margin-top: 8px;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,72 @@
+.navbar_container {
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: fit-content;
+    background-color: #9F3647;
+    padding: 20px;
+    z-index: 111;
+}
+
+.navbar_link_container {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    min-height: min-content;
+    align-items: center;
+}
+
+.navbar_link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.navbar_link:hover {
+    text-decoration: none;
+}
+
+.navbar_login_button {
+    border: 2px solid white;
+    padding: 12px;
+}
+
+.navbar_logo_container {
+    display:flex;
+    flex-direction: row;
+}
+
+.navbar_logo {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 700px) {
+    .navbar_container {
+        flex-direction: column;
+    }
+    .navbar_link {
+        font-size: 14px;
+    }
+}
+
+.navbar_logo_container:hover {
+    cursor: pointer;
+    animation: shake 0.2s ease infinite;
+}
+
+@keyframes shake {
+    0% { transform: rotate(0deg); }
+    30% { transform: rotate(5deg); }
+    55% { transform: rotate(0eg); }
+    85% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+}

@@ -1,0 +1,32 @@
+.banner_content_button {
+    background-color: #9F3647;
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10%;
+    padding: 12px;
+}
+
+@media (max-width: 700px) {
+    .banner_content_button {
+        font-size: 16px;
+    }
+}
+
+.searching_button {
+    background-color: #9F3647;
+    border-radius: 16px;
+    color: white;
+    border: 2px solid white;
+    padding: 8px;
+    width: 120px;
+    height: 40px;
+    font-family: "Nunito", sans-serif;
+}
+
+.movies_admin_link {
+    background-color: #181419;
+    padding: 10px;
+    border-radius: 8px;
+}

@@ -1,0 +1,58 @@
+/* Estilos de las peliculas */
+
+.trending-movie img {
+    width: 200px;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.trending-movie img:hover {
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    -webkit-filter: blur(5px);
+	filter: blur(3px);
+    transform: scale(0.95);
+    transition: 0.3s ease;
+}
+
+.rewarded_movies_container {
+    margin-right: 100px;
+    margin-left: 100px;
+    align-items: center;
+}
+
+.rewarded_movies {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-color: #9f3647 #181419;
+    margin-bottom: 40px;
+}
+
+.rewarded_movie {
+    width: 170px;
+    min-width: 170px;
+    border-radius: 16px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.rewarded_movie img {
+    width: 100%;
+    border-radius: 12px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.pagination_link {
+    background-color: transparent;
+    color: white;
+}
+
+.pagination_link:hover {
+    background-color: #9f3647;
+    color: white;
+}

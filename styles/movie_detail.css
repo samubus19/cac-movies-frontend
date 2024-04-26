@@ -1,0 +1,118 @@
+.detail_banner {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),url('../assets/img/mario-bg.jpg');
+    padding: 30px;
+    margin-top: 10vh;
+}
+
+.detail_content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+.detail_img_container {
+    width: 25%;
+}
+
+.detail_text {
+    color: white;
+    width: 75%;
+    margin-left: 25px;
+}
+
+.credits_container {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 700px) {
+    .detail_content {
+        flex-direction: column;
+    }
+}
+
+.trailer_container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 25px;
+    font-size: 18px;
+}
+
+.trailer_title {
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.trailer_content {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.social_media_list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    width: 100%;
+}
+.info_container {
+    width: 50%;
+    margin-left: 10px;
+}
+
+.video {
+    width: 50%;
+    margin-right: 10px;
+}
+
+.info_subtitle {
+    text-align: center;
+}
+
+.info_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info_row_title {
+    font-size: 18;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+}
+
+.info_row_value {
+    font-size: 18;
+    font-family: "Nunito", sans-serif;
+}
+
+.social_media_icon {
+    width: 40px;
+    background-color: #181419;
+}
+
+@media (max-width: 700px) {
+    .trailer_content {
+        flex-direction: column;
+    }
+    .video {
+        width: 100%;
+    }
+    .info_container {
+        width: 100%;
+    }
+    .info_row_title {
+        font-size: 14px;
+        font-family: "Nunito", sans-serif;
+        font-weight: 800;
+    }
+    
+    .info_row_value {
+        font-size: 14px;
+        font-family: "Nunito", sans-serif;
+    }
+    
+}

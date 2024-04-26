@@ -1,0 +1,72 @@
+.background_image {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    z-index: -1;
+}
+
+.logo {
+    color: #FFFFFF;
+}
+
+header {
+    margin-bottom: 100px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.register-card {
+    background-color: #333333;
+    color: #FFFFFF;
+    max-width: 500px;
+    /* margin: auto; */
+    width: 100%;
+    border-radius: 20px;
+}
+
+.fadeInCenter {
+    animation: fadeInCenter 2s ease 0s 1 normal forwards;
+}
+
+@keyframes fadeInCenter {
+    0% {
+       transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1)
+    }
+}
+
+.form-control.input-data, .form-select.input-data {
+    border-radius: 20px;
+    border: 2px solid #9f3647;
+    background-color: #333333;
+    outline: none;
+    color: whitesmoke;
+}
+
+.form-control.input-data:focus, .form-select.input-data:focus {
+    outline: none;
+    background-color: #333333;
+    border: 2px solid #9f3647;
+}
+
+.form-control.input-data::placeholder, .form-select.input-data::placeholder {
+    color: grey;
+}

@@ -1,0 +1,56 @@
+
+.logo {
+    color: #FFFFFF;
+}
+
+header {
+    margin-bottom: 100px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.register-card {
+    background-color: #333333;
+    margin: auto;
+    width: 35%;
+    height: 70vh;
+    border-radius: 20px;
+}
+
+.fadeInCenter {
+    animation: fadeInCenter 2s ease 0s 1 normal forwards;
+}
+
+@keyframes fadeInCenter {
+    0% {
+       transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1)
+    }
+}
+
+
+.content-card {
+    width: 100%;
+}
+
+.form-control.input-data {
+    border-radius: 20px;
+    border: 2px solid #9f3647;
+    background-color: #333333;
+    outline: none;
+    color: whitesmoke;
+}
+
+.form-control.input-data:focus {
+    outline: none;
+    background-color: #333333;
+    border: 2px solid #9f3647;
+}
+
+.form-control.input-data::placeholder {
+    color: grey;
+}
